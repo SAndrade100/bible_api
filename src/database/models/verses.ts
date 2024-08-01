@@ -41,7 +41,7 @@ class Verse extends Model {
     declare verse: number
 
     @Column({
-        type: DataType.STRING,
+        type: DataType.TEXT,
         allowNull: false
     })
     declare text: string
@@ -58,7 +58,7 @@ class Verse extends Model {
     @Column({
         type: DataType.DATE,
         defaultValue: DataType.NOW,
-        allowNull: true,
+        allowNull: false,
     })
     declare updatedAt: Date;
 }
