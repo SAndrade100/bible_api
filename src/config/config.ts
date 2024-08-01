@@ -1,7 +1,7 @@
 import express from 'express'
 import cors from 'cors'
 import helmet from 'helmet'
-import routes from '../routes/index.routes'
+import routes from '../routes/routes.js'
 
 const corsOptions = {
     origin: "*",
