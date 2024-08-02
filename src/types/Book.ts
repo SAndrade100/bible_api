@@ -1,4 +1,4 @@
-export class Book {
+export default class Book {
     public readonly id!: number
     public readonly idx!: number
     public book!: string

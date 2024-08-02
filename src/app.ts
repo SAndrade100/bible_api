@@ -1,5 +1,5 @@
-import sequelize from './database/database.js'
-import app from './config/config.js'
+import sequelize from './database/database.ts'
+import app from './config/config.ts'
 import dotenv from 'dotenv'
 
 dotenv.config()

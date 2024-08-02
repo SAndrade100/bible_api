@@ -1,4 +1,4 @@
-export class Verse {
+export default class Verse {
     public readonly book!: number
     public readonly chapter!: number
     public readonly verse!: number

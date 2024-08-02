@@ -8,7 +8,7 @@ import {
     ForeignKey,
     PrimaryKey,
 } from "sequelize-typescript"
-import Book from "./books.js"
+import Book from "./books.ts"
 
 @Table({
     timestamps: true,
