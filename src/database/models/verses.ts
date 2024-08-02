@@ -9,8 +9,6 @@ import {
     PrimaryKey,
 } from "sequelize-typescript"
 import Book from "./books.js"
-import { text } from "express"
-import { INTEGER, STRING, DATE, NOW } from "sequelize"
 
 @Table({
     timestamps: true,
