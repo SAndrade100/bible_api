@@ -9,12 +9,18 @@ class GetVerseUseCase {
                     book: book,
                     chapter: chapter,
                     verse: value
-                }
+                },
+                raw: true
             })
-            response.push(val)
+            response.push(val || {})
         }
         return response
     }
 }
 
 export default GetVerseUseCase
+
+// const verses = new GetVerseUseCase
+// const res = await verses.getVerse(1, 1, [1, 2, 3])
+
+// console.log(res)
