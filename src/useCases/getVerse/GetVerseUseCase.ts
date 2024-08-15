@@ -19,8 +19,3 @@ class GetVerseUseCase {
 }
 
 export default GetVerseUseCase
-
-// const verses = new GetVerseUseCase
-// const res = await verses.getVerse(1, 1, [1, 2, 3])
-
-// console.log(res)
