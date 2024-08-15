@@ -1,4 +1,4 @@
-import { Sequelize } from 'sequelize-typescript';
+import { Sequelize } from 'sequelize-typescript'
 
 const sequelize = new Sequelize({
   database: process.env.POSTGRES_DB || "",
@@ -7,6 +7,6 @@ const sequelize = new Sequelize({
   host: process.env.POSTGRES_HOST || "",
   dialect: (process.env.POSTGRES_DIALECT as any) || "postgres",
   models: [__dirname + "/models"]
-});
+})
 
-export default sequelize;
+export default sequelize

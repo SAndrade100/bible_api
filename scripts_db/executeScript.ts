@@ -39,6 +39,6 @@ const executeScript = async (pathName) => {
 };
 
 
-const path_script = path.join(__dirname, 'insert_verses.sql')
+const path_script = path.join(__dirname, 'insert_books.sql')
 
 executeScript(path_script)
